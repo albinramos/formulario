@@ -1,0 +1,76 @@
+*{
+    margin-left: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bodyindex{
+    background-color:#54442B;
+}
+
+#bodyrobos{
+    background-color: #657153;
+}
+
+#clientes{
+    background-color: #968262;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#denuncia{
+    background-color: #8AAA79;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.center{
+    margin-top: 30px;
+    text-align: right;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(200, 200, 200);
+}
+
+fieldset{
+    border-color: rgb(33, 33, 33);
+}
+
+#nombre{
+    margin: 10px;
+}
+
+#apellido{
+    margin: 10px;
+}
+
+#edad{
+    margin: 10px;
+}
+
+#sexo{
+    margin-top: 15px;
+    width: 20%;
+}
+
+#comentarios{
+    margin-top: 15px;
+    width: 20%;
+}
+
+#email, #telefono, #submit{
+    margin-top: 20px;
+}
+
+#hora, #color, #montana, #carreras, #accesorios{
+    margin-top: 20px;
+}

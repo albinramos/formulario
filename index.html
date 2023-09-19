@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario clientes</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="bodyindex">
+    <header class="center">
+        <nav>
+            <a href="./index.html">Formulario Clientes</a>
+            <a href="./pages/formulario_robos.html" class="navopciones">Formulario Robos</a>
+        </nav>
+    </header>
+    <h1>Club Tercera Edad Entrepenes</h1>
+    <h2>Formulario de admisión</h2>
+    <form id="clientes">
+        <label for="nombre"></label>
+        <input type="text" id="nombre" name="nombre" autofocus autocomplete="off" placeholder="Nombre" tabindex="1">
+        <br>
+        <label for="apellido"></label>
+        <input type="text" id="apellido" name="apellido" autofocus autocomplete="off" placeholder="Apellido" tabindex="2">
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="1" max="125" autocomplete="off" tabindex="3">
+        <br>
+        <fieldset id="sexo">
+        <legend>Sexo:</legend>
+            <input type="radio" id="masculino" name="sexo" value="masculino" tabindex="4">
+            <label for="masculino">masculino</label>
+            <br>
+            <input type="radio" id="femenino" name="sexo" value="femenino" tabindex="5">
+            <label for="femenino">femenino</label>
+        </fieldset>
+        <br>
+        <input type="checkbox" name="viejuno" tabindex="6">
+        <label for="viejuno">Me siento viejuner</label>
+        <br>
+        <fieldset id="comentarios" >
+        <legend>Escribe algo sobre ti:</legend>
+            <textarea name="comentarios" rows="10" cols="30" tabindex="7"></textarea>
+        </fieldset>
+        <h3>Tus circunstancias:</h3>
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Email" autocomplete="off" tabindex="8">
+        <br>
+        <label for="telefono"></label>
+        <input type="number" id="telefono" name="telefono" placeholder="Teléfono" autocomplete="off" tabindex="9">
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Enviar" id="submit">
+        
+    </form>
+</body>
+</html>

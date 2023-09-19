@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario robos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body id="bodyrobos">
+    <header class="center">
+        <nav>
+            <a href="/index.html">Formulario Clientes</a>
+            <a href="../pages/formulario_robos.html" class="navopciones">Formulario Robos</a>
+        </nav>
+    </header>
+    <h1>Los ladronzuelos de bicicletas</h1>
+    <h2>Formulario de denuncia</h2>
+    <form id="denuncia">
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha">
+        <br>
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora">
+        <br>
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color">
+        <br>
+        <h3>Tipo de bicicleta:</h3>
+        <label for="paseo">Paseo:</label>
+        <select name="paseo" id="paseo">
+            <option value="senorial">Señorial</option>
+            <option value="plebeyos">Anti-plebeyos</option>
+            <option value="hombro">PorEncimaDelHombro</option>
+        </select>   
+        <br>
+        <label for="montana">Montaña:</label>
+        <select name="montana" id="montana">
+            <option value="gamusinos">Gamusinos</option>
+            <option value="flores">Hueleflores premium</option>
+            <option value="fango">Fango lover</option>
+        </select>
+        <br>
+        <label for="carreras">Carreras:</label>
+        <select name="carreras" id="carreras">
+            <option value="metroymedio">Metroymedio</option>
+            <option value="fluorescente">3 de la tarde. Fluorescente edition</option>
+            <option value="grupitors">Grupitors</option>
+        </select>
+        <br>
+        <label for="accesorios">Accesorios:</label>
+        <select multiple name="accesorios" id="accesorios">
+            <option value="ruedines">Ruedines</option>
+            <option value="pegatinas">Pegatinas</option>
+            <option value="cestita">Cestita</option>
+            <option value="bomba">Bomba de aire</option>
+            <option value="timbre">Timbre</option>
+            <option value="foco">Foco</option>
+        </select>
+        <br>
+        <h3>¿Qué marca era?</h3>
+            <input list="marca" name="marca">
+            <datalist id="marca">
+              <option value="specialized">
+              <option value="trek">
+              <option value="merida">
+              <option value="scott">
+              <option value="giant">
+              <option value="cube">
+              <option value="lapierre">
+              <option value="orbea">
+              <option value="cannondale">
+              <option value="bmc">
+              <option value="canyon">
+              <option value="look">
+              <option value="protek">
+              <option value="megamo">
+              <option value="pinarello">
+              <option value="bianchi">
+              <option value="bh">
+              <option value="factor">
+              <option value="ghost">
+              <option value="cervélo">
+              <option value="argon">
+            </datalist>
+            <br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Enviar" id="submit">
+    </form>
+</body>
+</html>
