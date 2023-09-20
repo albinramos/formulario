@@ -59,12 +59,15 @@ fieldset{
 
 #sexo{
     margin-top: 15px;
+    padding: auto;
     width: 20%;
+    border-radius: 10px;
 }
 
 #comentarios{
     margin-top: 15px;
     width: 20%;
+    border-radius: 10px;
 }
 
 #email, #telefono, #submit{
